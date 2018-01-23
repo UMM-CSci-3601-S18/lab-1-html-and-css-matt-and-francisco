@@ -12,6 +12,11 @@ body{
     background-color: whitesmoke;
 }
 
+.section {
+  float: left;
+  width: 50%;
+}
+
 #pslo{
   background-color: seagreen;
   padding: 20px;
@@ -20,6 +25,36 @@ body{
 }
 
 #faculty{
-  
+  width: 100%;
+  text-align: center;
 }
 
+#faculty>ul>li {
+  display: inline-block;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#validation {
+  text-align: center;
+}
+
+#style {
+  position: inherit;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#style ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+  text-align: center;
+}
