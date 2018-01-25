@@ -10,6 +10,8 @@ use float to make something locate itself on the right or left
 body{
     padding: 30px;
     background-color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    font-family: Rubik;
 }
 
 .section {
@@ -37,7 +39,8 @@ body{
 
 h1 {
   text-align: center;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'BioRhyme Expanded', serif;
+  font-family: BioRhyme;
 }
 
 #validation {
