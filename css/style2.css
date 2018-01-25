@@ -19,28 +19,34 @@ body{
   margin-right: auto;
   margin-bottom: 15px;
   width: 75%;
+  border: 2px groove #333333;
+  border-radius: 10px;
 }
 
 #pslo{
   background-color: seagreen;
   padding: 20px;
-  border-radius: 10px;
 }
 #courses{
   background-color: seagreen;
   padding: 20px;
-  border-radius: 10px;
 }
 
 #faculty{
   width: 100%;
   text-align: center;
+  border: groove seagreen;
 }
 
 #faculty>ul>li {
   display: inline-block;
   font-family: sans-serif;
   padding: 30px;
+  font-style: italic;
+}
+
+#faculty>ul>li>img {
+  border: 5px groove #333333;
 }
 
 h1 {
