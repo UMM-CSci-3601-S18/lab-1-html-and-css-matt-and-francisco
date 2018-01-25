@@ -7,12 +7,15 @@ use float to make something locate itself on the right or left
 
 */
 
+/*Changes the default font for the page to Rubik from google fonts*/
 body{
     padding: 30px;
     background-color: whitesmoke;
     font-family: 'Rubik', sans-serif;
 }
 
+/*Example of Class*/
+/*Centers the sections, and has them take up 75% of the screen so that it automatically resizes*/
 .section {
   margin-left: auto;
   margin-right: auto;
@@ -22,11 +25,8 @@ body{
   border-radius: 10px;
 }
 
-#pslo{
-  background-color: seagreen;
-  padding: 20px;
-}
-#courses{
+/*Example of ID*/
+#pslo, #courses{
   background-color: seagreen;
   padding: 20px;
 }
@@ -37,6 +37,7 @@ body{
   border: groove seagreen;
 }
 
+/*Uses Nesting*/
 #faculty>ul>li {
   display: inline-block;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -53,21 +54,24 @@ h1 {
   font-family: 'BioRhyme Expanded', serif;
 }
 
+/*Uses grouping*/
 h6, h2 {
   font-family: "Montserrat Alternates";
 }
 
+/*centers the text for the validation card, and makes it smaller*/
 .card {
   text-align: center;
   font-size: smaller;
   padding-bottom: 10px;
 }
 
+/*gets rid of the bullets before the text*/
 ul.card-text {
   list-style: none;
 }
 
-
+/*Fixed at the bottom left of the screen, and has a border on only the top*/
 #style {
   position: fixed;
   left: 0;
