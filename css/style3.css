@@ -90,7 +90,26 @@ p.card-text {
 #style > ul {
   font-size: larger;
   list-style-type: none;
+}
+
+#style > ul > li {
+  padding: 5px;
+  margin: 3px;
+
+}
+
+/* Makes the style links and validation links look like buttons */
+li > a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: dodgerblue;
   text-align: center;
+}
+
+li > a:hover {
+  background-color: cornflowerblue;
 }
 
 /* modifies validation specifically */
@@ -103,4 +122,6 @@ p.card-text {
 /* removes bullet points from validation */
 div#validation.card > div.card-body > ul.card-text > li {
   list-style-type: none;
+  padding: 5px;
+  margin: 3px;
 }
