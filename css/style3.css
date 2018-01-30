@@ -7,7 +7,97 @@ use float to make something locate itself on the right or left
 
 */
 
-body{
-    padding: 30px;
-    background-color: #aaaaaa;
+/* modifies entire body */
+body {
+  background-color: #A9A9A9;
+  padding: 30px;
+  display: grid;
+  font-family: 'BioRhyme Expanded', serif;
+  grid-gap: 3px;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 25% 75%;
+}
+
+/* modifies main title */
+h1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+/* modifies h2 titles specifically */
+h2 {
+  text-align: center;
+}
+
+p.card-text {
+  font-size: small;
+}
+
+/* modifies all sections(pslo, courses, faculty, validation) */
+.section {
+  background-color: #CAEBF2;
+  border-radius: 50px;
+  border: 3px solid;
+  margin: 10px;
+  max-width: 870px;
+  padding: 20px;
+}
+
+/* modifies required courses specifically */
+#courses {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/* modifies faculty specifically */
+#faculty {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  list-style: none;
+}
+
+/* removes bullets from faculty */
+#faculty > ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+/* modifies pslo specifically */
+#pslo{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/* modifies styles specifically */
+#style {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+/* removes bullets from style */
+#style > ul {
+  font-size: larger;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* modifies validation specifically */
+#validation {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+/* removes bullet points from validation */
+div#validation.card > div.card-body > ul.card-text > li {
+  list-style-type: none;
 }
