@@ -7,6 +7,7 @@ use float to make something locate itself on the right or left
 
 */
 
+/* for grade*/
 /* modifies entire body */
 body {
   background-color: #A9A9A9;
@@ -43,6 +44,7 @@ p.card-text {
   border-radius: 50px;
 }
 
+/* for grade*/
 /* Class example
  modifies all sections(pslo, courses, faculty, validation) */
 .section {
@@ -89,6 +91,7 @@ p.card-text {
   grid-row-end: 3;
 }
 
+/* for grade*/
 /* modifies styles specifically */
 #style {
   grid-column-start: 1;
@@ -107,6 +110,7 @@ p.card-text {
   margin: 3px;
 }
 
+/* for grade*/
 /* Makes the style links and validation links look like buttons */
 li > a {
   text-decoration: none;
@@ -128,6 +132,7 @@ li > a:hover {
   text-align: center;
 }
 
+/* for grade*/
 /* Nesting example
  removes bullet points from validation, adds padding and margin */
 div#validation.card > div.card-body > ul.card-text > li {
