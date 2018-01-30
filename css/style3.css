@@ -11,7 +11,7 @@ use float to make something locate itself on the right or left
 body {
   background-color: #A9A9A9;
   padding: 30px;
-  display: grid;
+  display: inline-grid;
   font-family: 'BioRhyme Expanded', serif;
   grid-gap: 3px;
   grid-template-columns: auto auto auto;
@@ -32,6 +32,11 @@ h2 {
 
 p.card-text {
   font-size: small;
+}
+
+/* modifies faculty pictures */
+.pic {
+  border-radius: 50px;
 }
 
 /* modifies all sections(pslo, courses, faculty, validation) */
