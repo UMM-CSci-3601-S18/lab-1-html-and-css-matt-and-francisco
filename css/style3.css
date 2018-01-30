@@ -43,7 +43,8 @@ p.card-text {
   border-radius: 50px;
 }
 
-/* modifies all sections(pslo, courses, faculty, validation) */
+/* Class example
+ modifies all sections(pslo, courses, faculty, validation) */
 .section {
   background-color: #CAEBF2;
   border-radius: 50px;
@@ -53,7 +54,8 @@ p.card-text {
   padding: 20px;
 }
 
-/* modifies required courses specifically */
+/* ID example
+ modifies required courses specifically */
 #courses {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -126,16 +128,16 @@ li > a:hover {
   text-align: center;
 }
 
-/* Nesting example */
-/* removes bullet points from validation */
+/* Nesting example
+ removes bullet points from validation, adds padding and margin */
 div#validation.card > div.card-body > ul.card-text > li {
   list-style-type: none;
   padding: 5px;
   margin: 3px;
 }
 
-/* Grouping example */
-/* removes bullets from both style and faculty */
+/* Grouping example
+removes bullets from both style and faculty */
 #style>ul, #faculty>ul {
   list-style-type: none;
 }
