@@ -74,6 +74,11 @@ p.card-text {
   text-align: center;
 }
 
+/* modifies the way pictures are aligned. fixed length issue. */
+#faculty > ul > li {
+  display: inline-grid;
+}
+
 /* modifies pslo specifically */
 #pslo{
   grid-column-start: 2;
