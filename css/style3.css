@@ -37,6 +37,11 @@ p.card-text {
   font-size: small;
 }
 
+/* modifies faculty pictures */
+.pic {
+  border-radius: 50px;
+}
+
 /* modifies all sections(pslo, courses, faculty, validation) */
 .section {
   background-color: #CAEBF2;
