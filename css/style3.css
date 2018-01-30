@@ -67,13 +67,11 @@ p.card-text {
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
-  list-style: none;
 }
 
-/* removes bullets from faculty */
+/* text aligns faculty info */
 #faculty > ul {
   text-align: center;
-  list-style-type: none;
 }
 
 /* modifies pslo specifically */
@@ -92,16 +90,14 @@ p.card-text {
   grid-row-end: 2;
 }
 
-/* removes bullets from style */
+/* simply makes font bigger */
 #style > ul {
   font-size: larger;
-  list-style-type: none;
 }
 
 #style > ul > li {
   padding: 5px;
   margin: 3px;
-
 }
 
 /* Makes the style links and validation links look like buttons */
@@ -125,9 +121,16 @@ li > a:hover {
   text-align: center;
 }
 
+/* Nesting example */
 /* removes bullet points from validation */
 div#validation.card > div.card-body > ul.card-text > li {
   list-style-type: none;
   padding: 5px;
   margin: 3px;
+}
+
+/* Grouping example */
+/* removes bullets from both style and faculty */
+#style>ul, #faculty>ul {
+  list-style-type: none;
 }
